@@ -15,7 +15,9 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="py-12 md:py-20 bg-background">
         <div className="container mx-auto px-4">
-          <QuoteForm />
+          <div className="max-w-3xl mx-auto rounded-2xl border-4 border-blue-500 bg-blue-100/70 p-4 sm:p-6 md:p-8">
+            <QuoteForm />
+          </div>
         </div>
       </section>
 
@@ -119,7 +121,7 @@ export default function HomePage() {
       <section className="py-12 md:py-20 bg-background">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-foreground">¿Qué puedo asegurar?</h2>
-          <div className="max-w-3xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
             <Card className="border-border">
               <CardContent className="pt-6">
                 <div className="flex flex-col items-center text-center">
@@ -127,8 +129,34 @@ export default function HomePage() {
                     <Car className="w-10 h-10 text-primary" />
                   </div>
                   <h3 className="text-2xl font-semibold mb-4 text-card-foreground">Vehículos</h3>
-                  <p className="text-lg text-muted-foreground leading-relaxed mb-4">Auto • Moto • Pickup • Flota</p>
-                  <p className="text-sm text-muted-foreground/80">(Pronto más coberturas)</p>
+                  <p className="text-lg text-muted-foreground leading-relaxed">Auto • Moto • Pickup • Flota</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-border">
+              <CardContent className="pt-6">
+                <div className="flex flex-col items-center text-center">
+                  <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mb-6">
+                    <Shield className="w-10 h-10 text-primary" />
+                  </div>
+                  <h3 className="text-2xl font-semibold mb-4 text-card-foreground">Riesgos varios</h3>
+                  <ul className="text-left text-muted-foreground leading-relaxed space-y-2">
+                    <li>Bicicletas y monopatines</li>
+                    <li>ART</li>
+                    <li>Accidentes personales</li>
+                    <li>Combinado familiar (hogar)</li>
+                    <li>Bolso protegido</li>
+                    <li>Caución</li>
+                    <li>Integral de comercio</li>
+                    <li>Agrícolas de granizo</li>
+                    <li>Personas</li>
+                    <li>Praxis médica</li>
+                    <li>Seguro técnico</li>
+                    <li>Incendio</li>
+                    <li>Vida</li>
+                    <li>Transporte de mercadería</li>
+                  </ul>
                 </div>
               </CardContent>
             </Card>
