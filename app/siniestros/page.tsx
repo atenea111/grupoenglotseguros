@@ -187,7 +187,7 @@ export default function SiniestrosPage() {
             </div>
           </CardHeader>
           <CardContent className="md:pl-20">
-            <a href="https://wa.me/5493402554953" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5493417445610" target="_blank" rel="noopener noreferrer">
               <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold">
                 Reportar por WhatsApp
               </Button>

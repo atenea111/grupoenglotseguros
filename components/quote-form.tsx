@@ -58,7 +58,7 @@ export function QuoteForm() {
       ].join("\n")
 
       // Número de WhatsApp de destino (sin símbolos). Si es necesario, agrega el código de país.
-      const phoneNumber = "3402554953"
+      const phoneNumber = "5493417445610"
       const waUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
 
       window.open(waUrl, "_blank")
@@ -180,9 +180,8 @@ export function QuoteForm() {
 
           {submitStatus && (
             <div
-              className={`p-4 rounded-lg ${
-                submitStatus.success ? "bg-green-50 text-green-800" : "bg-red-50 text-red-800"
-              }`}
+              className={`p-4 rounded-lg ${submitStatus.success ? "bg-green-50 text-green-800" : "bg-red-50 text-red-800"
+                }`}
             >
               {submitStatus.message}
             </div>

@@ -24,7 +24,7 @@ export function Navbar() {
           {/* Acciones desktop */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="https://wa.me/5493402554953"
+              href="https://wa.me/5493417445610"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2"
@@ -52,7 +52,7 @@ export function Navbar() {
               <SheetContent className="w-72">
                 <div className="flex flex-col gap-3 mt-8">
                   <a
-                    href="https://wa.me/5493402554953"
+                    href="https://wa.me/5493417445610"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
