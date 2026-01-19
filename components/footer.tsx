@@ -10,27 +10,27 @@ export function Footer() {
           <div className="mb-8">
             <h3 className="text-2xl font-bold mb-6 text-accent">OFICINAS</h3>
             <div className="space-y-6">
-              {/* Arroyo Seco */}
+              {/* Rosario - Sorrento */}
               <div className="space-y-2">
                 <div className="flex items-center justify-center gap-2">
                   <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
                   <div>
-                    <p className="font-semibold">Arroyo Seco:</p>
-                    <p>Independencia 299 bis, Local 2</p>
+                    <p className="font-semibold">Rosario:</p>
+                    <p>Sorrento 1270 (Estación Puma Energy)</p>
                   </div>
                 </div>
                 <a
-                  href="https://wa.me/5493402554953"
+                  href="https://wa.me/5493417445610"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 hover:text-accent transition-colors"
                 >
                   <Phone className="w-5 h-5 text-accent" />
-                  <span>3402 554953</span>
+                  <span>341 7445610</span>
                 </a>
               </div>
 
-              {/* Rosario */}
+              {/* Rosario - Santa Fe */}
               <div className="space-y-2">
                 <div className="flex items-center justify-center gap-2">
                   <MapPin className="w-5 h-5 text-accent flex-shrink-0" />
